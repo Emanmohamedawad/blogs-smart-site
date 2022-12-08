@@ -297,7 +297,7 @@ COMMON CLASSES END
 .blogsp{
     font-size: 18px;
     font-weight: 500;
-    text-align: center;
+    direction: rtl;
 }
 
 /* card-1 */
@@ -310,16 +310,7 @@ COMMON CLASSES END
     overflow: hidden;
     transform: translateY(-30px);
 }
-.main-row .blog-img img{
-    transform: scale(1);
-    transition: 0.3s ease-in-out;
-}
-.main-row:hover .blog-img{
-    border-radius: 0.5rem;
-}
-.main-row:hover img{
-    transform: scale(1.2);
-}
+
 
 
 /* cards-2 */
@@ -341,16 +332,7 @@ COMMON CLASSES END
     overflow: hidden;
     transform: translateY(-30px);
 }
-.blog-card .blog-img img{
-    transform: scale(1);
-    transition: 0.3s ease-in-out;
-}
-.blog-card:hover .blog-img{
-    border-radius: 0.5rem;
-}
-.blog-card:hover img{
-    transform: scale(1.2);
-}
+
 .blogs ul li a {
     width: 24px;
     height: 26px;
@@ -367,15 +349,6 @@ COMMON CLASSES END
     color: #da1725;
 }
 
-.blogs ul li a:hover {
-    background-color: #da1725;
-    color: white;
-    cursor: pointer;
-}
-.blogs .ul-cls{
-    margin-top: -8px;
-    margin-bottom: 10px;
-}
 .blogs p{
     font-size: 16px;
     line-height: 24px;
@@ -384,6 +357,13 @@ COMMON CLASSES END
 /* 
 ============================footer-style========================
  */
+ .all-footer{
+    background-color: #000;
+    color: #fff;
+    border-top: 1px solid #da1725;
+    padding-bottom: 20px;
+    margin-top: 40px;
+ }
 
 .footer-section {
     width: 100%;
@@ -392,7 +372,7 @@ COMMON CLASSES END
     margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
-    border-top: 1px solid #da1725;
+    
 }
 
 .footer-section-box {
@@ -411,7 +391,7 @@ COMMON CLASSES END
 .footer-section-box h3 {
     font-size: 17px;
     line-height: 24px;
-    color: #000;
+    color: #fff;
     font-family: 'dinprobold';
 }
 
@@ -420,7 +400,7 @@ COMMON CLASSES END
     font-weight: 200;
     font-size: 17px;
     line-height: 24px;
-    color: #000;
+    color: #fff;
 }
 
 .footer-section-box p a {
@@ -428,17 +408,17 @@ COMMON CLASSES END
     font-weight: 200;
     font-size: 17px;
     line-height: 24px;
-    color: #000;
+    color: #fff;
 }
 
 .footer-section-box p a:hover {
-    color: #da1725;
+    color: #fff;
 }
 
 .footer-connect-box h3 {
     font-size: 17px;
     line-height: 24px;
-    color: #000;
+    color: #fff;
     font-family: 'dinprobold';
 }
 
@@ -447,7 +427,7 @@ COMMON CLASSES END
     font-weight: 200;
     font-size: 17px;
     line-height: 24px;
-    color: #000;
+    color: #fff;
     margin-bottom: 0px;
 }
 
@@ -456,7 +436,7 @@ COMMON CLASSES END
     font-weight: 200;
     font-size: 17px;
     line-height: 24px;
-    color: #000;
+    color: #fff;
 }
 
 .footer-connect-box p a:hover {
@@ -469,6 +449,7 @@ COMMON CLASSES END
     flex-wrap: wrap;
     margin-top: 10px;
     margin-bottom: 5px;
+    padding: 0;
 }
 
 .footer-connect-box ul li {
