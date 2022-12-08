@@ -224,15 +224,15 @@ COMMON CLASSES END
 }
 
 .left-section {
-    padding-top: 140px;
+    padding-top: 200px;
     width: 100%;
-    max-width: 750px;
 }
 
 .first-section-content {
     margin-top: 60px;
     width: 100%;
 }
+
 
 .first-section-content h3 {
     font-size: 32px;
@@ -251,24 +251,7 @@ COMMON CLASSES END
     margin-top: 15px;
 }
 
-.countdown-section {
-    width: 100%;
-    margin-top: 45px;
-    padding-bottom: 0px;
-    display: flex;
-}
 
-.countdown-bottom-content {
-    width: 100%;
-    margin-top: 40px;
-}
-
-.countdown-bottom-content h2 {
-    font-size: 34px;
-    color: #000;
-    font-family: 'dinprolight';
-    font-weight: 200;
-}
 
 .countdown-bottom-content h2 span {
     color: #da1725;
@@ -289,11 +272,13 @@ COMMON CLASSES END
 .blogs{
     font-family: 'dinprolight';
 }
+.head{
+    margin: 30px 0;
+}
 .blogs h2{
     color: #da1725;
     font-size: 48px;
     font-weight: bold;
-    width: 20%;
     position: relative;
 }
 .blogs h2:after{
@@ -403,9 +388,11 @@ COMMON CLASSES END
 .footer-section {
     width: 100%;
     height: auto;
-    margin-top: 80px;
+    padding-top: 20px;
+    margin-top: 100px;
     display: flex;
     flex-wrap: wrap;
+    border-top: 1px solid #da1725;
 }
 
 .footer-section-box {
@@ -528,11 +515,7 @@ COMMON CLASSES END
     }
 
     .left-section {
-        padding-top: 70px;
-    }
-
-    .countdown-bottom-content {
-        margin-top: 20px;
+        padding-top: 155px;
     }
 
     .flipper-group label {
